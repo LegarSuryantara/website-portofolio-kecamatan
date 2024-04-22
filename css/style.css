@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header {
+    height: 100vh;
+
+
+}
+header .navbar .container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header .hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position-y: -100px;
+    text-align: center;
+}
+#animasi-ketik{
+    color: #00D062;
+}
+header nav{
+    background-color: #00D062;
+    
+}
+
+
+header .hero .deskripsi {
+    width: 70%;
+}
+header .hero .deskripsi h1{
+    color: white;
+    font-weight: 700;
+}
+header .hero .deskripsi p {
+    color: rgb(255, 255, 255);
+}
+
+main {
+
+    background-color: white;
+    padding-top: 40px;
+}
+article {
+    text-align: justify;
+    text-indent: 20px;
+    
+}
+.struktur-container{
+    height: 100vh;
+    background-color: #00D062;
+    color: white;
+}
+.struktur-container .container span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.struktur-container .container span h2{
+    border-bottom: 2px solid #004d24;
+    width: 140px;
+}
+
+.geografis-container .container .container-wilayah {
+    display: flex;
+    justify-content: center;
+}
+.geografis-container .container .container-wilayah .peta iframe {
+    border-radius: 5px;
+}
+.geografis-container .container span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.geografis-container .container span h2{
+    border-bottom: 2px solid #004d24;
+    width: 156px;
+}
+.hubungi-container {
+    background-color: #00D062;
+    height: 100vh;
+    
+}
+.hubungi-container .container span.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hubungi-container .container h2 {
+    color: white;
+    border-bottom: 1px solid #004d24;
+    width: 250px;
+}
+
+main .sejarah-container .container span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .sejarah-container .container span h2{
+    border-bottom: 2px solid #058743;
+    width: 140px;
+}
+footer {
+    height: 9vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+footer p i{
+    color: red;
+}
+
+
+@media screen and (max-width: 768px){
+    .geografis-container .container .container-wilayah {
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    header .hero{
+        background-position-x: -350px;
+    }
+    .sejarah-container .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
